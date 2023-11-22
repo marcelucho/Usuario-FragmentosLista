@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="txt_nombre">Introduzca Nombre</string>
+    <string name="txt_correo">Introduzca Correo</string>
+    <string name="btn_guardar">Guardar</string>
+
+</resources>
