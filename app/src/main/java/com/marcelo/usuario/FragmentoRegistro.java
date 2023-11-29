@@ -39,7 +39,13 @@ public class FragmentoRegistro extends AppCompatActivity {
                 String name = nombreEditText.getText().toString();
                 String email = emailEditText.getText().toString();
 
-                String url = "http://10.0.2.2:8098/api/saveUser"; //url local
+
+
+                //String url = "http://10.0.2.2:8098/api/saveUser"; //url local
+                String url = "https://my-usuario-marcelo.onrender.com";
+
+
+
                 RequestQueue queve = Volley.newRequestQueue(FragmentoRegistro.this);
                 StringRequest request = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
                     @Override
